@@ -11,7 +11,6 @@ export default {
 		fontFamily: {
 			'sans': ['Ubuntu']
 		},
-
 	},
 	plugins: [],
 }
