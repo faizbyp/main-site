@@ -8,9 +8,5 @@ const {data} = Astro.props
     <h3 class="text-lg font-bold">{data.title}</h3>
     <p class="text-xs">{data.desc}</p>
   </div>
-  <div class="place-self-end flex gap-2">
-  {data.tag.map((t) => (
-    <span class="bg-primary text-white font-bold px-2">{t}</span>
-  ))}
-  </div>
+  <span class="place-self-end bg-primary text-white font-bold px-2">{data.tag}</span>
 </a>
