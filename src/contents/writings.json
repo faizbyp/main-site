@@ -1,16 +1,23 @@
 [
   {
-    "title": "Create a modal without JavaScript!",
+    "title": "laksdlasj laksjdlasjd lkansdlaknd alskdak asd asdlka Create a modal without JavaScript!",
     "desc": "Tutorial about how to create a modal with HTML dialog tag.",
     "url": "https://dev.to/faizbyp/create-a-modal-without-javascript-6eh",
-    "img": "../img/image1.png",
+    "img": "public/img/image1.png",
+    "tag": ["Article"]
+  },
+  {
+    "title": "Create a modal without JavaScrasdadipt!",
+    "desc": "Tuaaaa.",
+    "url": "https://dev.to/faizbyp/create-a-modal-without-javascript-6eh",
+    "img": "public/img/image2.png",
     "tag": ["Article"]
   },
   {
     "title": "Create a modal without JavaScript!",
     "desc": "Tutorial about how to create a modal with HTML dialog tag.",
     "url": "https://dev.to/faizbyp/create-a-modal-without-javascript-6eh",
-    "img": "../img/image1.png",
-    "tag": ["Article"]
+    "img": "public/img/image3.png",
+    "tag": ["Article", "Tag2"]
   }
 ]

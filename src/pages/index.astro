@@ -15,7 +15,7 @@ import Card from "../components/Card.astro"
 	</header>
 
 	<nav class="my-6">
-		<h2 class="text-3xl text-primary">Table of Content</h2>
+		<h2 class="text-3xl text-primary font-bold">Table of Content</h2>
 		<ol class="list-[upper-roman] ml-10 my-2 text-xl underline space-y-1">
 			<li><a href="#writings">Writings</a></li>
 			<li><a href="#designs">Designs</a></li>
@@ -25,8 +25,8 @@ import Card from "../components/Card.astro"
 	</nav>
 
 	<section id="writings" class="mb-3">
-		<h2 class="text-4xl text-primary text-center mb-2">Writings</h2>
-		<article class="flex gap-3 justify-evenly">
+		<h2 class="text-4xl text-primary text-center font-bold mb-5">Writings</h2>
+		<article class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 			{writings.map((w) => (
 				<Card data={w} />
 			))}
