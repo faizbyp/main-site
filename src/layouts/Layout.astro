@@ -1,5 +1,7 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 const {title} = Astro.props
+import { fade } from 'astro:transitions';
 ---
 
 <html lang="en" class="!scroll-smooth">
@@ -12,11 +14,12 @@ const {title} = Astro.props
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<ViewTransitions />
 	</head>
 	<body class="mx-4 my-6 text-secondary select-none">
     <a href="/" class="text-5xl font-bold text-primary">—faizbyp</a>
 		<main class="mx-auto mt-3 max-w-screen-lg">
-			<slot></slot>
+			<slot transition:animate={fade({ duration: '0.6s' })}></slot>
 		</main>
 	</body>
 </html>
