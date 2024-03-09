@@ -1,7 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import Section from "../components/Section.astro"
+
 import writings from "../contents/writings.json"
-import Card from "../components/Card.astro"
 ---
 
 <Layout title="faizbyp - tech storyweaver">
@@ -14,22 +15,18 @@ import Card from "../components/Card.astro"
 		</a>
 	</header>
 
-	<nav class="my-6">
+	<nav class="my-16">
 		<h2 class="text-3xl text-primary font-bold">Table of Content</h2>
 		<ol class="list-[upper-roman] ml-10 my-2 text-xl underline space-y-1">
-			<li><a href="#writings">Writings</a></li>
-			<li><a href="#designs">Designs</a></li>
-			<li><a href="#codes">Codes</a></li>
-			<li><a href="#misc">Misc</a></li>
+			<li><a href="#Writings">Writings</a></li>
+			<li><a href="#Designs">Designs</a></li>
+			<li><a href="#Codes">Codes</a></li>
+			<li><a href="#Misc">Misc</a></li>
 		</ol>
 	</nav>
 
-	<section id="writings" class="mb-3">
-		<h2 class="text-4xl text-primary text-center font-bold mb-5">Writings</h2>
-		<article class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-			{writings.map((w) => (
-				<Card data={w} />
-			))}
-		</article>
-	</section>
+	<Section data={writings} category="Writings" />
+	<Section data={writings} category="Designs" />
+	<Section data={writings} category="Codes" />
+
 </Layout>

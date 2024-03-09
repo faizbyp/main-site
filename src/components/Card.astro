@@ -2,11 +2,11 @@
 const {data} = Astro.props
 ---
 
-<a href={data.url} target="_blank" class="h-full grid pb-2 border-b-2 border-secondary hover:underline">
-  <img src={data.img} alt={data.title} class="h-36 w-full object-cover">
+<a href={data.url} target="_blank" class="h-full w-full grid pb-2 border-b-2 border-secondary hover:underline">
+  <img src={data.img} alt={data.title} class="h-36 w-full object-cover rounded-lg">
   <div class="mt-2 mb-3">
     <h3 class="text-lg font-bold">{data.title}</h3>
     <p class="text-xs">{data.desc}</p>
   </div>
-  <span class="place-self-end bg-primary text-white font-bold px-2">{data.tag}</span>
+  <span class="place-self-end border-2 border-primary text-primary font-bold px-2 rounded">{data.tag}</span>
 </a>
