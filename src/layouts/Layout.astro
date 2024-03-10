@@ -16,10 +16,17 @@ import { fade } from 'astro:transitions';
 		<title>{title}</title>
 		<ViewTransitions />
 	</head>
-	<body class="mx-4 my-6 text-secondary select-none">
-    <a href="/" class="text-5xl font-bold text-primary">—faizbyp</a>
-		<main class="mx-auto mt-3 max-w-screen-lg">
-			<slot transition:animate={fade({ duration: '0.6s' })}></slot>
+	<body class="select-none">
+		<main class="mx-4 my-6 text-secondary">
+			<a href="/" class="text-5xl font-bold text-primary">—faizbyp</a>
+			<article class="mx-auto mt-3 max-w-screen-lg">
+				<slot transition:animate={fade({ duration: '0.6s' })}></slot>
+			</article>
 		</main>
+		<footer class="bg-primary py-32">
+			<div class="grid content-center justify-end max-w-screen-lg mx-auto">
+				<h1 class="text-5xl font-bold text-white">—faizbyp</h1>
+			</div>
+		</footer>
 	</body>
 </html>
