@@ -1,5 +1,54 @@
 [
   {
+    "title": "7 Years From Now Game Review",
+    "desc": "Instagram microblog content about “7 Years from now” game review",
+    "url": "https://www.instagram.com/p/CpFYEp3PYUU/",
+    "img": "/img/image4.png",
+    "tag": "Socmed Post"
+  },
+  {
+    "title": "AgriUX Meeting Press Release",
+    "desc": "LinkedIn post about community event on IPB Computer Science Student Association.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7026746017119162368",
+    "img": "/img/image7.png",
+    "tag": "Socmed Post"
+  },
+  {
+    "title": "Game Reality Meeting Press Release",
+    "desc": "LinkedIn post about community event on IPB Computer Science Student Association.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7025490251884220416",
+    "img": "/img/image11.png",
+    "tag": "Socmed Post"
+  },
+  {
+    "title": "Learn New Things: Resume Site",
+    "desc": "A post about making a resume site to learn about static site generator",
+    "url": "https://www.linkedin.com/posts/activity-7050107372479922176-cSci",
+    "img": "/img/image3.png",
+    "tag": "Socmed Post"
+  },
+  {
+    "title": "IEEE Asia Pacific Student Convention",
+    "desc": "A post about my experience in IEEE regional event. We talked about blockchain and Web3.",
+    "url": "https://www.linkedin.com/posts/activity-7035505859518480384-r9V9?utm_source=share&utm_medium=member_desktop",
+    "img": "/img/image9.png",
+    "tag": "Socmed Post"
+  },
+  {
+    "title": "Global Game Jam 2023",
+    "desc": "A post about my experience in the Global Game Jam 2023 event at Indigo Space, Bogor.",
+    "url": "https://www.linkedin.com/posts/activity-7028585096991428608-V7s9?utm_source=share&utm_medium=member_desktop",
+    "img": "/img/image15.png",
+    "tag": "Socmed Post"
+  },
+  {
+    "title": "Journaling Selama Sebulan Penuh",
+    "desc": "Article about my experience on journaling.",
+    "url": "https://medium.com/@faizbyp/journaling-selama-sebulan-penuh-ead043d78165",
+    "img": "/img/image14.png",
+    "tag": "Article"
+  },
+  {
     "title": "Make a website and deploy it to GitHub Pages!",
     "desc": "Tutorial about Github Pages, a free static site hosting provider",
     "url": "https://dev.to/faizbyp/make-a-website-and-deploy-it-to-github-pages-3i1m",
