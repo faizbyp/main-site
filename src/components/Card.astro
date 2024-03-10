@@ -2,7 +2,7 @@
 const {data} = Astro.props
 ---
 
-<a href={data.url} target="_blank" class="h-full w-full grid pb-2 border-b-2 border-secondary hover:underline">
+<a href={data.url} target="_blank" class="h-full w-full grid pb-2 border-b-2 border-secondary hover:underline hover:-translate-y-3 focus:scale-105 transition">
   <img src={data.img} alt={data.title} class="h-36 w-full object-cover rounded-lg">
   <div class="mt-2 mb-3">
     <h3 class="text-lg font-bold">{data.title}</h3>
