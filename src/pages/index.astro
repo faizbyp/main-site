@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro"
 import Section from "../components/Section.astro"
 
 import writings from "../contents/writings.json"
+import designs from "../contents/designs.json"
+import codes from "../contents/codes.json"
 ---
 
 <Layout title="faizbyp - tech storyweaver">
@@ -26,7 +28,7 @@ import writings from "../contents/writings.json"
 	</nav>
 
 	<Section data={writings} category="Writings" />
-	<Section data={writings} category="Designs" />
-	<Section data={writings} category="Codes" />
+	<Section data={designs} category="Designs" />
+	<Section data={codes} category="Codes" />
 
 </Layout>

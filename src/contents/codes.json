@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Codes 1",
+    "desc": "Tutorial about Github Pages, a free static site hosting provider",
+    "url": "https://dev.to/faizbyp/make-a-website-and-deploy-it-to-github-pages-3i1m",
+    "img": "/img/image2.png",
+    "tag": "Article"
+  },
+  {
+    "title": "I made a todo-list with Preact",
+    "desc": "An article about my side project, a simple todo-list made with Preact and Local Storage.",
+    "url": "https://dev.to/faizbyp/i-made-a-todo-list-with-preact-26oj",
+    "img": "/img/image5.png",
+    "tag": "Article"
+  },
+  {
+    "title": "Create a modal without JavaScript!",
+    "desc": "Tutorial about how to create a modal with HTML dialog tag.",
+    "url": "https://dev.to/faizbyp/create-a-modal-without-javascript-6eh",
+    "img": "/img/image13.png",
+    "tag": "Article"
+  }
+]
