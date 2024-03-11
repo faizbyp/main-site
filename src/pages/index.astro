@@ -20,15 +20,15 @@ import codes from "../contents/codes.json"
 	<nav class="mt-10 mb-6">
 		<h2 class="text-3xl text-primary font-bold">Table of Content</h2>
 		<ol class="list-[upper-roman] ml-10 my-2 text-xl underline space-y-1">
-			<li><a href="#writings" class="hover:text-primary transition">Writings</a></li>
-			<li><a href="#designs" class="hover:text-primary transition">Designs</a></li>
 			<li><a href="#codes" class="hover:text-primary transition">Codes</a></li>
+			<li><a href="#designs" class="hover:text-primary transition">Designs</a></li>
+			<li><a href="#writings" class="hover:text-primary transition">Writings</a></li>
 			<li><a href="#misc" class="hover:text-primary transition">Misc</a></li>
 		</ol>
 	</nav>
 
-	<Section data={writings} category="Writings" />
-	<Section data={designs} category="Designs" />
 	<Section data={codes} category="Codes" />
+	<Section data={designs} category="Designs" />
+	<Section data={writings} category="Writings" />
 
 </Layout>
