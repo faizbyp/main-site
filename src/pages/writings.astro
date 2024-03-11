@@ -1,0 +1,17 @@
+---
+import writings from "../contents/writings.json"
+import Card from "../components/Card.astro"
+import Layout from "../layouts/Layout.astro"
+---
+
+<Layout title="Writings">
+  <h2 class="text-4xl text-primary text-center font-bold my-6">My Writings</h2>
+  <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center mb-12">
+    {writings.map((w) => (
+      <Card data={w} />
+    ))}
+  </article>
+  <div class="flex justify-center">
+    <a href="/" class="underline text-lg hover:text-primary focus:text-primary hover:scale-105 focus:scale-105 transition">Back to Home</a>
+  </div>
+</Layout>

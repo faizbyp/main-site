@@ -1,8 +1,33 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import Section from "../components/Section.astro"
+
+import writings from "../contents/writings.json"
+import designs from "../contents/designs.json"
+import codes from "../contents/codes.json"
 ---
 
-<Layout>
-	<h1>faizbyp</h1>
-	<h3>Under development</h3>
+<Layout title="faizbyp - tech storyweaver">
+	<header class="py-20 grid place-content-center text-center">
+		<h3 class="text-5xl font-bold">tech storyweaver</h3>
+		<p class="mt-2 mb-4">Frontend Engineer • Technical Content Writer • Graphic Designer</p>
+		<div class="flex justify-center">
+			<a href="/about" class="bg-primary text-white text-lg px-3 py-2 rounded-lg hover:scale-105 focus:scale-100 focus:opacity-75 transition"><i class="bi bi-person-fill"></i> About Me</a>
+		</div>
+	</header>
+
+	<nav class="mb-6 text-center md:text-left">
+		<h2 class="text-3xl text-primary font-bold">Table of Content</h2>
+		<ol class="my-2 text-xl underline space-y-1">
+			<li><a href="#codes" class="hover:text-primary focus:text-primary transition">Codes</a></li>
+			<li><a href="#writings" class="hover:text-primary focus:text-primary transition">Writings</a></li>
+			<li><a href="#designs" class="hover:text-primary focus:text-primary transition">Designs</a></li>
+			<!-- <li><a href="#misc" class="hover:text-primary transition">Misc</a></li> -->
+		</ol>
+	</nav>
+
+	<Section data={codes} category="Codes" />
+	<Section data={writings} category="Writings" />
+	<Section data={designs} category="Designs" />
+
 </Layout>
