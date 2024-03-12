@@ -12,7 +12,7 @@ export default defineConfig({
       enabled: true,
     },
     speedInsights: {
-      enabled: true,
+      enabled: false,
     },
   })
 });
