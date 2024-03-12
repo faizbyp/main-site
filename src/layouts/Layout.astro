@@ -2,6 +2,7 @@
 import { ViewTransitions } from 'astro:transitions';
 const {title} = Astro.props
 import { fade } from 'astro:transitions';
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 ---
 
 <html lang="en" class="!scroll-smooth">
@@ -40,5 +41,6 @@ import { fade } from 'astro:transitions';
 				</div>
 			</div>
 		</footer>
+		<SpeedInsights/>
 	</body>
 </html>
