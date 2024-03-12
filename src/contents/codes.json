@@ -3,49 +3,49 @@
     "title": "Money Tracker",
     "desc": "Expense tracking PWA built with React JS and Laravel API.",
     "url": "https://github.com/faizbyp/moneytracker-ads",
-    "img": "/img/codes/money-tracker.jpg",
+    "img": "/src/img/codes/money-tracker.jpg",
     "tag": "Frontend"
   },
   {
     "title": "Kotak Saran Spreadsheet",
     "desc": "Making Google Spreadsheet as an API for giving suggestion via form.",
     "url": "https://github.com/faizbyp/kotak-saran",
-    "img": "/img/codes/kotak-saran.png",
+    "img": "/src/img/codes/kotak-saran.png",
     "tag": "Frontend"
   },
   {
     "title": "Prudoo List",
     "desc": "Simple to-do list using Preact and localStorage.",
     "url": "https://github.com/faizbyp/prudoo-list",
-    "img": "/img/codes/image10.png",
+    "img": "/src/img/codes/image10.png",
     "tag": "Frontend"
   },
   {
     "title": "Safari Pahala Travel",
     "desc": "Travel website made using React and Bootstrap 5 with dynamic data from API.",
     "url": "https://www.safaripahalatravel.com/",
-    "img": "/img/codes/image12.png",
+    "img": "/src/img/codes/image12.png",
     "tag": "Frontend"
   },
   {
     "title": "PPKU Astro",
     "desc": "Converting ICT IPB intern project to Astro and Bootstrap 5.",
     "url": "https://github.com/faizbyp/ppku-astro",
-    "img": "/img/codes/image8.png",
+    "img": "/src/img/codes/image8.png",
     "tag": "Frontend"
   },
   {
     "title": "DOM Todo",
     "desc": "HTML Todo List using JavaScript DOM manipulation.",
     "url": "https://github.com/faizbyp/dom-todo",
-    "img": "/img/codes/image6.png",
+    "img": "/src/img/codes/image6.png",
     "tag": "Frontend"
   },
   {
     "title": "Keindahan Alam",
     "desc": "Responsive design with Flexbox for community challenge submission using HTML and CSS.",
     "url": "https://github.com/faizbyp/keindahan-alam",
-    "img": "/img/codes/image1.png",
+    "img": "/src/img/codes/image1.png",
     "tag": "Frontend"
   }
 ]
