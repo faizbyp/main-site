@@ -6,7 +6,7 @@ const {data} = Astro.props
 
 // https://docs.astro.build/en/guides/images/
 // https://docs.astro.build/en/recipes/dynamically-importing-images/
-const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/{codes,writings,designs}/*.{jpeg,jpg,png,gif}')
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/img/{codes,writings,designs,misc}/*.{jpeg,jpg,png,gif}')
 
 ---
 

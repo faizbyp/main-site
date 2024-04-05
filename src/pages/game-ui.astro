@@ -1,0 +1,25 @@
+---
+import gameUi from "../contents/game-ui.json"
+import Card from "../components/Card.astro"
+import Layout from "../layouts/Layout.astro"
+---
+
+<Layout title="Game UI Portfolio">
+  <h2 class="text-4xl text-primary text-center font-bold my-6">Game UI Portfolio</h2>
+  <div class="flex justify-center text-xl mb-8 gap-6">
+    <a href="https://faizbyp.itch.io/" class=" opacity-80 hover:scale-125 hover:opacity-100 hover:text-primary focus:opacity-100 focus:scale-110 focus:text-primary transition" target="_blank">
+      <i class="bi bi-joystick"></i>
+    </a>
+    <a href="https://www.behance.net/faizbyp" class=" opacity-80 hover:scale-125 hover:opacity-100 hover:text-primary focus:opacity-100 focus:scale-110 focus:text-primary transition" target="_blank">
+      <i class="bi bi-behance"></i>
+    </a>
+  </div>
+  <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center mb-12">
+    {gameUi.map((w) => (
+      <Card data={w} />
+    ))}
+  </article>
+  <div class="flex justify-center">
+    <a href="/" class="underline text-lg hover:text-primary focus:text-primary hover:scale-105 focus:scale-105 transition">Back to Home</a>
+  </div>
+</Layout>
