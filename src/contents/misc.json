@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Zenbi",
+    "desc": "Chiptune traditional Japanese music",
+    "url": "https://soundcloud.com/faizbyp/zenbi",
+    "img": "/src/img/misc/zenbi.png",
+    "tag": "Music"
+  },
+  {
+    "title": "Keep Eatin' Soundtrack",
+    "desc": "Soundtrack for Keep Eatin' 2D game",
+    "url": "https://soundcloud.com/faizbyp/sets/keep-eatin-soundtrack",
+    "img": "/src/img/misc/keep-eatin-ost.png",
+    "tag": "Music"
+  },
+  {
+    "title": "Magistar",
+    "desc": "2D Tower Defense Shooter Game.",
+    "url": "https://www.behance.net/gallery/195473755/2D-Game-Assets-Magistar",
+    "img": "/src/img/misc/magistar.png",
+    "tag": "Game"
+  },
+  {
+    "title": "Traffic Points",
+    "desc": "Permainan teka-teki simulasi kondisi lalu lintas 2 dimensi",
+    "url": "https://www.behance.net/gallery/195551361/2D-Game-Assets-Traffic-Points",
+    "img": "/src/img/misc/traffic-points.png",
+    "tag": "Game"
+  },
+  {
+    "title": "Keep Eatin",
+    "desc": "A simple 2D platformer game we made with a theme of \"Heightened Senses\" from Trijam#167",
+    "url": "https://www.behance.net/gallery/148004393/2D-Game-Assets-Keep-Eatin",
+    "img": "/src/img/misc/keep-eatin.png",
+    "tag": "Game"
+  },
+  {
+    "title": "27th Himalkom Anniversary",
+    "desc": "Instagram filter game made for celebrating the 27th anniversary of Himalkom IPB",
+    "url": "https://www.behance.net/gallery/147867891/2D-Game-Assets-27th-Himalkom-Anniversary",
+    "img": "/src/img/misc/27-himalkom.png",
+    "tag": "Game"
+  }
+]

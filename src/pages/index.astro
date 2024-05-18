@@ -5,6 +5,7 @@ import Section from "../components/Section.astro"
 import writings from "../contents/writings.json"
 import designs from "../contents/designs.json"
 import codes from "../contents/codes.json"
+import misc from "../contents/misc.json"
 ---
 
 <Layout title="faizbyp - tech storyweaver">
@@ -22,6 +23,7 @@ import codes from "../contents/codes.json"
 			<li><a href="#codes" class="hover:text-primary focus:text-primary transition">Codes</a></li>
 			<li><a href="#writings" class="hover:text-primary focus:text-primary transition">Writings</a></li>
 			<li><a href="#designs" class="hover:text-primary focus:text-primary transition">Designs</a></li>
+			<li><a href="#misc" class="hover:text-primary focus:text-primary transition">Misc</a></li>
 			<!-- <li><a href="#misc" class="hover:text-primary transition">Misc</a></li> -->
 		</ol>
 	</nav>
@@ -29,5 +31,6 @@ import codes from "../contents/codes.json"
 	<Section data={codes} category="Codes" />
 	<Section data={writings} category="Writings" />
 	<Section data={designs} category="Designs" />
+	<Section data={misc} category="Misc" />
 
 </Layout>
