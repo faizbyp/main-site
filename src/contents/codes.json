@@ -1,5 +1,19 @@
 [
   {
+    "title": "Render.md",
+    "desc": "Markdown previewer using React.",
+    "url": "https://github.com/faizbyp/render-md",
+    "img": "/src/img/codes/render-md.png",
+    "tag": "Frontend"
+  },
+  {
+    "title": "Music Quote",
+    "desc": "Random quote generator from music lyrics.",
+    "url": "https://github.com/faizbyp/music-quote",
+    "img": "/src/img/codes/music-quote.png",
+    "tag": "Frontend"
+  },
+  {
     "title": "Money Tracker",
     "desc": "Expense tracking PWA built with React JS and Laravel API.",
     "url": "https://github.com/faizbyp/moneytracker-ads",
