@@ -1,5 +1,12 @@
 [
   {
+    "title": "Hoenn Region",
+    "desc": "PokeAPI Frontend of Hoenn Region using JQuery.",
+    "url": "https://github.com/faizbyp/hoenn-web",
+    "img": "/src/img/codes/hoenn.png",
+    "tag": "Frontend"
+  },
+  {
     "title": "Render.md",
     "desc": "Markdown previewer using React.",
     "url": "https://github.com/faizbyp/render-md",
